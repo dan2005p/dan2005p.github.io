@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121F3D;
+}
+.header {
+    /*border: solid 1px blue;*/
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: #071b48;
+
+}
+
+nav {
+    /* border: solid 1px yellow; */
+    width: 455px;
+    text-align: center;
+    color: #1E77EC;
+   
+    
+}
+
+nav ul  li a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+nav ul {
+    margin-top: 20px;
+}
+nav li {
+    /*border: solid 1px yellow;*/
+    display: inline;
+    text-align: center;
+    padding: 5px 15px;
+    margin: auto 0;
+}
+
+.right {
+    /*border: solid 1px green;*/
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right li {
+    list-style: none;
+   
+    margin: 0 15px;
+    color: #1E77EC;
+    background: #eeeeee;
+    padding: 5px 10px;
+}
+
+.right ul {
+    display: flex;
+    
+}
+
+.right a {
+    text-decoration: none;
+}
+
+main {
+    /* border: 5px solid #8ca31a; */
+    /* padding: 0 30px; */
+    display: grid;
+    place-content: center;
+    /* margin-top: 20px; */
+}
+#main-container {
+    /* border: 5px solid #541aa3; */
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+.text {
+    /* border: 5px solid #8ca31a; */
+    text-align: 0 auto;
+    /* margin-top: 100px; */
+    padding: 100px 0;
+    padding-left: 20px;
+    color: #1E77EC;
+}    
+
+.image-container {
+    /* border: 5px solid #e1bee7; */
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    grid-auto-rows: 220px;
+    gap: 10px;
+    place-content: center;
+ }
+
+ .item {
+    /* border: 5px solid #061d0f; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
+
+ .item-1 {
+    background-image: url(/images/photos/thech1.jpg);
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1/3;
+ }
+ .item-2 {
+    background-image: url(/images/photos/thech2.jpg);
+   
+    
+ }
+ .item-3 {
+    background-image: url(/images/photos/thech3.jpg);
+    
+ }
+
+ .action {
+    padding: 10px 15px;
+    background-color: #8817ea;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: 'Cairo', sans-serif;
+ }
+
+ h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+ }
+
+ footer {
+    background-color: #ebeff4;
+    padding: 30px 100px;
+    color: #1E77EC;
+    font-family: 'Cairo', sans-serif;
+   background-color: #071b48;
+ }
+
+ .social {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 5px solid #e1bee7; */
+ }
+ .social img {
+    width: 30px;
+    margin-right: 15px;
+    
+    
+ }
+
+ .social-icons {
+    color: #1E77EC;
+ }
+
+ .hr {
+    /* height: 10px; */
+    color: #1E77EC;
+    margin: 15px 0;
+ }
